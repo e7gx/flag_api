@@ -14,8 +14,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
         useMaterial3: true,
+        scaffoldBackgroundColor: Colors.white,
       ),
       home: const CountryListScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

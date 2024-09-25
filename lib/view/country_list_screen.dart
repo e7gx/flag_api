@@ -76,7 +76,10 @@ class _CountryListScreenState extends State<CountryListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Country List'),
+        title: const Text(
+          'Countries Search App',
+          style: TextStyle(color: Colors.teal, fontWeight: FontWeight.bold),
+        ),
       ),
       body: Column(
         children: [
